@@ -1,0 +1,272 @@
+.header {
+    padding: 13px 15px 13px 15px;
+    font-size: 14px;
+    font-weight: 600;
+    background: #37474f;
+    color: #82cbc4;
+    text-align: left;
+}
+
+.track {
+    background: white;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.track .track-image {
+    width: 100%;
+    display: block;
+}
+
+.track .dog-number {
+    position: absolute;
+    top: 105px;
+    left: 5px;
+    display: none;
+}
+
+.track .dog-number1-display {
+    top: 20.6%;
+    display: inline-block;
+}
+
+.track .dog-number2-display {
+    top: 34.2%;
+    display: inline-block;
+}
+
+.track .dog-number3-display {
+    top: 47.8%;
+    display: inline-block;
+}
+
+.track .dog-number4-display {
+    top: 61.4%;
+    display: inline-block;
+}
+
+.track .dog-number5-display {
+    top: 75%;
+    display: inline-block;
+}
+
+.track .dog-number6-display {
+    top: 88.6%;
+    display: inline-block;
+}
+
+.track .rabbit {
+    width: 135px;
+    height: 20px;
+    color: white;
+    text-align: center;
+    padding-top: 5px;
+    font-weight: 500;
+    position: absolute;
+    background-image: url(./img/rabbit.png);
+    background-size: contain;
+    background-position: right;
+    background-repeat: no-repeat;
+    display: none;
+}
+
+.track .rabbit-display {
+    top: 9.8%;
+    left: 0px;
+    display: inline-block;
+}
+
+.track .dog {
+    width: 80px;
+    height: 32px;
+    color: white;
+    text-align: center;
+    padding-top: 5px;
+    font-weight: 500;
+    position: absolute;
+    background-image: url(./img/dog.gif);
+    background-size: cover;
+    display: none;
+}
+
+.track .dog1-display {
+    top: 16%;
+    left: 0;
+    display: inline-block;
+}
+
+.track .dog2-display {
+    top: 29.6%;
+    left: 0;
+    display: inline-block;
+}
+
+.track .dog3-display {
+    top: 43.2%;
+    left: 0;
+    display: inline-block;
+}
+
+.track .dog4-display {
+    top: 56.8%;
+    left: 0;
+    display: inline-block;
+}
+
+.track .dog5-display {
+    top: 70.4%;
+    left: 0;
+    display: inline-block;
+}
+
+.track .dog6-display {
+    top: 84%;
+    left: 0;
+    display: inline-block;
+}
+
+.popup-div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 150px;
+    background: rgba(0, 0, 0, 0.65);
+    background: url(./img/splash.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.start-button-div {
+    padding: 20px 40px;
+    background: #13805e;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.start-button-div:hover {
+    background: #82cbc4;
+}
+
+.race-pos-no {
+    width: 27px;
+    height: 27px;
+    display: inline-block;
+    overflow: hidden;
+    text-align: center;
+    line-height: 25px;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.race-pos-no-1 {
+    border: 1px solid white;
+    background: #de231e;
+}
+
+.race-pos-no-2 {
+    background: #0270a0;
+    border: 1px solid white;
+}
+
+.race-pos-no-3 {
+    background: white;
+    color: #263238;
+    border: 1px solid #263238;
+}
+
+.race-pos-no-4 {
+    background: black;
+    color: white;
+}
+
+.race-pos-no-5 {
+    background: #f15715;
+    border: 1px solid white;
+    color: white;
+}
+
+.race-pos-no-6 {
+    color: #de231e;
+    border: 1px solid white;
+    background: url(./img/position-6.png) repeat-x white;
+}
+
+.won-box {
+    position: absolute;
+    width: 100%;
+    top: 15px;
+    text-align: center;
+    display: none;
+}
+
+.won-box .won-box-inner {
+    display: inline-block;
+    background: white;
+    padding: 15px;
+    width: 280px;
+    overflow: hidden;
+}
+
+.won-box-display {
+    top: 205px;
+    left: 0px;
+    display: block;
+}
+
+.won-box .won-box-inner .trap-trophy {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.won-box .won-box-inner .trap-won {
+    font-size: 20px;
+    margin-bottom: 10px;
+    line-height: 26px;
+}
+
+.won-box .won-box-inner .trap-won .won-trap-no {
+    display: inline-block;
+}
+
+.won-box .won-box-inner .trap-name {
+    font-size: 20px;
+    margin-bottom: 5px;
+    line-height: 26px;
+    color: #82cbc4;
+}
+
+.won-box .won-box-inner .bet-now {
+    font-size: 20px;
+    margin-bottom: 5px;
+    line-height: 26px;
+}
+
+.won-box .won-box-inner .trap-odds {
+    padding: 10px 30px;
+    background: #1e282d;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    display: inline-block;
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+
+.won-box .won-box-inner .trap-odds:hover {
+    background: #82cbc4;
+}
+
+.won-box .won-box-inner .race-re-watch {
+    font-size: 13px;
+    cursor: pointer;
+}
